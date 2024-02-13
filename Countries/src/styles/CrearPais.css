@@ -1,3 +1,71 @@
 .Crear-pais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(#8fe9f5, #c5c6d1);
+}
+
+.input-code {
+    margin-bottom: 40px;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.consult-btn {
     background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+.consult-btn:hover {
+    background-color: rgb(54, 54, 196);
+    cursor: pointer;
+}
+
+.fields {
+    margin: 20px;
+}
+
+.box-1 {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 4rem;
+}
+
+.btn-eliminar {
+    background-color:rgb(223, 41, 41);
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+.btn-eliminar:hover {
+    cursor: pointer;
+}
+
+.btn-crear {
+    background-color:rgb(21, 160, 79);
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+.btn-crear:hover {
+    cursor: pointer;
 }

@@ -1,11 +1,14 @@
 import React from 'react'
 import SliderBar from './SliderBar'
+import SearchBar from './SearchBar'
+import '../styles/Home.css'
 
 export default function Home() {
   return (
-    <div>
-
-      <h1>Home</h1>
+    <div className='Home'>
+      
+      <h1></h1>
+      <SearchBar />
     </div>
   )
 }
