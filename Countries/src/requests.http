@@ -1,0 +1,11 @@
+###
+POST http://localhost:5173/api/pais HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "inglaterra",
+    "continente": "europa",
+    "lenguaje": "ingles",
+    "codigo": "ig",
+
+}
